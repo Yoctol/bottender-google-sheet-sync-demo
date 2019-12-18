@@ -1,0 +1,24 @@
+{
+  "name": "bottender-google-sheet-sync-demo",
+  "version": "1.0.12",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon server.js",
+    "lint": "eslint .",
+    "start": "bottender start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "bottender": "1.0.0",
+    "ejs": "^3.0.1",
+    "googleapis": "^45.0.0",
+    "mz": "^2.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1"
+  }
+}
