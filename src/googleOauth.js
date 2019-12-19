@@ -17,7 +17,7 @@ async function getOAuth2Client() {
     // Load client secrets from a local file.
     const content = await readFile('client_secret.json');
     const credentials = JSON.parse(content);
-    const { client_secret, client_id, redirect_uris } = credentials.installed;
+    const { client_secret, client_id, redirect_uris } = credentials.web;
     oAuth2ClientCache = new google.auth.OAuth2(
       client_id,
       client_secret,
