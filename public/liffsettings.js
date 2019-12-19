@@ -25,8 +25,6 @@ function initializeLiff() {
  */
 function initializeApp() {
   document.getElementById('button').addEventListener('click', function() {
-    alert('click');
-    alert('open url: ' + url);
     liff.openWindow({
       url,
       external: true,

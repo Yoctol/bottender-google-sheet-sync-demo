@@ -34,7 +34,6 @@ app.prepare().then(() => {
     const filename = path.join(__dirname + `/src/liff/settings.html`);
     authUrl().then(url => {
       ejs.renderFile(filename, { url }, {}, function(err, str) {
-        // str => Rendered HTML string
         res.send(str);
       });
     });
