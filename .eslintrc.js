@@ -14,6 +14,8 @@ module.exports = {
         singleQuote: true,
       },
     ],
+    'no-undef': ['off'],
+    'require-atomic-updates': ['off'],
   },
   plugins: ['prettier'],
   overrides: [
